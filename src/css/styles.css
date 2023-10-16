@@ -6,20 +6,28 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
+@import url('./keyboard.css');
+@import url('./textarea.css');
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+.p {
+  margin: 0;
+  padding: 0;
+}
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+.container {
+  width: 1200px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  align-items: center;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+body {
+  background: #86AFBC;
 }
